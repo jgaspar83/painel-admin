@@ -1,0 +1,29 @@
+{
+  "name": "painel-admin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@adminjs/express": "^6.1.0",
+    "@adminjs/sequelize": "^4.1.1",
+    "adminjs": "^7.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.4.3",
+    "sequelize": "^6.35.2",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "sucrase": "^3.34.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  }
+}
